@@ -1,0 +1,40 @@
+{
+  "name": "gitbook-plugin-vistors-github",
+  "version": "1.1.0",
+  "description": "Github Vistors Plugin for Gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rokid/gitbook-plugin-vistors-github.git"
+  },
+  "keywords": [
+    "gitbook",
+    "vistors"
+  ],
+  "author": "Yorkid Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rokid/gitbook-plugin-vistors-github/issues"
+  },
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "repo": {
+        "type": "string",
+        "title": "GitHub Repo Name",
+        "required": true
+      },
+      "branch": {
+        "type": "string",
+        "title": "GitHub Repo Branch",
+        "required": false
+      }
+    }
+  },
+  "homepage": "https://github.com/Rokid/gitbook-plugin-vistors-github#readme"
+}
